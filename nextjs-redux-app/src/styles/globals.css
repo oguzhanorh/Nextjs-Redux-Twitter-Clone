@@ -1,0 +1,56 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* ui */
+button {
+  background:rgba(29, 155, 240,1);
+  color:#fff;
+  padding:8px 16px;
+  border-radius:6px;
+  border:none;
+}
+
+
+
+.container {
+  max-width:960px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.content-container {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* login */
+.login-page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+.login-sidebar {
+  flex:1;
+  background:rgba(29, 155, 240,0.8)
+}

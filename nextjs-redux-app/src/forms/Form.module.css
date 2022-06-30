@@ -1,0 +1,27 @@
+.formWrapper {
+    display: flex;    
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.formContainer {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:360px;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="password"]{
+    padding:10px;
+    border-radius:6px;
+    border:rgba(0,0,0,0.5) solid 1px;
+    margin-bottom:15px;
+    width:100%;
+}
+
+.formContainer button {
+    width:100%;
+}

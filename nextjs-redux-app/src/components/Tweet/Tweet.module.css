@@ -1,0 +1,25 @@
+.composeContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:20px;
+}
+.composeContainer textarea{
+    flex:1;
+    margin-bottom:10px;
+    border:rgba(0,0,0,0.2) solid 1px;
+    min-height: 40px;
+    padding:10px;
+    border-radius:6px;
+}
+.composeContainer button {
+    margin-left:auto;
+    display: inline-flex;
+}
+
+
+.tweetCard {
+    border:rgba(0,0,0,0.2) solid 1px;
+    border-radius:6px;
+    padding:10px;
+    margin-bottom:10px;
+}
